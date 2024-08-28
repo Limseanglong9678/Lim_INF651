@@ -1,8 +1,7 @@
  // Variables and Data Types
  let personName = "Jason";
  let personAge = 18;
- let student = new Boolean(false);
- 
+ let student = new Boolean(true);
  // Basic Arithmetic Operations
  let num1 = 6;
  let num2 = 3;
@@ -27,12 +26,10 @@
  let biggerNum = 3;
  let smallerNum = 2;
  console.log(true ? biggerNum : smallerNum);
-
  // Logical Operators
  console.log(true && false);
  console.log(true && true);
  console.log(false || true);
  console.log(!true);
- 
  // Using Template Literals
  console.log("string text line 1\n" + "string text line 2");
